@@ -1,0 +1,35 @@
+$orange:#FB8D10;
+$d_orange:#FB8500;
+$yellow:#FEAF0B;
+$clue:#1A3D41;
+$d_clue:#0E3744;
+$d_blue:#023047;
+$blue:#219EBC;
+$w_blue:#8ECAE6;
+$clue_text:#5f687b;
+$primary:#0d6efd;
+$bg-light:#c8ced3;
+
+@import "./footer.scss";
+@import "./navbar.scss";
+@import "./intro.scss";
+@import "./back-to-up.scss";
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html,body {
+  overflow-x: hidden;
+}
+
+* ,*::before, *::after {
+  font-family: 'Fira Code', monospace; 
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+}

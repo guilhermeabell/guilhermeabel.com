@@ -1,0 +1,17 @@
+.intro {
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 56px;
+}
+@media (max-width: 991px) {
+  .intro {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    height: auto;
+    padding-bottom: 15px;
+  }
+}

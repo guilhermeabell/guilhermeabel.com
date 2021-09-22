@@ -1,0 +1,52 @@
+import React from "react";
+import type { NextPage } from "next";
+import { API } from "../api/axios";
+import type { GetStaticProps, GetStaticPropsContext } from "next";
+
+// components
+import Head from "next/head";
+import HeroSection from "../components/projects/hero/index";
+import Dashboard from "../components/projects/dashboard/index";
+
+export interface ProjectsProps {
+  categories: {
+    _id: string;
+    category: string;
+    projectsCount: number;
+  }[];
+}
+
+export const getStaticProps: GetStaticProps = async (
+  context: GetStaticPropsContext
+) => {
+  let categories;
+  try {
+    const res = await API.get("/categories");
+    categories = res.data;
+  } catch (error: any) {
+    console.log(error);
+  }
+
+  return {
+    props: {
+      categories,
+    },
+  };
+};
+
+const Projects: NextPage<ProjectsProps> = ({ categories }) => {
+  return (
+    <React.Fragment>
+      <Head>
+        <title>guilhermeabel | Projects</title>
+        <meta title="guilhermeabel Projects" />
+        <meta name="keywords" content="coding, web development, programming, javascript, projects , github, profiles,guilhermeabel, guilhermeabel"/>
+        <meta name="description" content="find out my projects I made in web development and see my github profile, skill I have, guilhermeabel"/>
+      </Head>
+      <HeroSection />
+      <Dashboard categories={categories} />
+    </React.Fragment>
+  );
+};
+
+export default Projects;
