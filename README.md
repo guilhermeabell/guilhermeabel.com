@@ -59,7 +59,7 @@ npm run test
 * Website: https://guilhermeabel.com
 * Twitter: [@guilhermeabel](https://twitter.com/guilhermeabel99)
 * Github: [@guilhermeabel](https://github.com/guilhermeabel99)
-* LinkedIn: [@I don't have](https://linkedin.com/in/I don't have)
+* LinkedIn: [@I don't have](https://linkedin.com/in/guilhermeabel)
 
 ## 🤝 Contributing
 
