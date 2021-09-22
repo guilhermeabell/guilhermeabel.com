@@ -15,7 +15,7 @@
 
 </p>
 
-> alguerocode is my portfolio website to show my projects and skills and selling my digital products I made in web development
+> guilhermeabel is my portfolio website to show my projects and skills and selling my digital products I made in web development
 
 ### 🏠 [my profile](https://github.com/guilhermeabel99)
 
