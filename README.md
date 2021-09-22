@@ -5,7 +5,7 @@
     <img alt="License: GNU" src="https://img.shields.io/badge/License-GNU-yellow.svg" />
   </a>
   <a href="https://twitter.com/guilhermeabel99" target="_blank">
-    <img alt="Twitter: guilhermeabel" src="https://img.shields.io/twitter/follow/alhashmis1.svg?style=social" />
+    <img alt="Twitter: guilhermeabel" src="https://img.shields.io/twitter/follow/guilhermeabel99.svg?style=social" />
   </a>
   <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/stargazers"><img src="https://img.shields.io/github/stars/alguerocode/website" alt="Stars Badge"/></a>
 <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/network/members"><img src="https://img.shields.io/github/forks/alguerocode/website" alt="Forks Badge"/></a>
