@@ -84,7 +84,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [salah alhashmi](https://github.com/guilhermeabel99).<br />
+Copyright © 2021 [guilhermeabel](https://github.com/guilhermeabel99).<br />
 This project is [GNU](https://github.com/alguerocode/guilhermeabel99.tk/blob/main/LICENSE) licensed.
 
 ***
