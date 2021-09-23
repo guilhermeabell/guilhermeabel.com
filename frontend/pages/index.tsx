@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <title>Guilherme Abel | Home</title>
         <meta title="GuilhermeAbel Home" />
         <meta name="keywords" content="coding, web development, programming, javascript, projects , github, profiles, Home, landing page,guilhermeabel"/>
-        <meta name="description" content="guilhermeabel landing page, figure out the intersting things about me , projects, products, documents, tools and languages I use in web developemnt, coding and programming ,guilhermeabel"/>
+        <meta name="description" content="Web site created using create-next-app"/>
         <script src="/aos/index.js" defer></script>
       </Head>
       <HeroSection />
