@@ -1,7 +1,7 @@
 $yel: #fcec5a;
 
 #header {
-  background: #fff;
+  background:#20232a;
   z-index: 10;
   border-bottom: 2px solid;
   padding: 5px 0;
@@ -23,7 +23,7 @@ $yel: #fcec5a;
 
 .logo-title {
   transform: translate(4px, 6px);
-  color: #000;
+  color: #fff;
   text-align: center;
   padding-left: 10px;
   font-size: 1.5rem !important;
@@ -139,7 +139,7 @@ $yel: #fcec5a;
   padding: 10px 0 10px 30px;
   font-size: 16px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -160,7 +160,7 @@ $yel: #fcec5a;
   justify-content: center;
   line-height: 1;
   color: #000 !important;
-  background: $yel;
+  background: #61DAFB;
   font-size: 16px;
   font-weight: 700;
 }

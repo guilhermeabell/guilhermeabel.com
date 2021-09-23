@@ -35,7 +35,7 @@ const NavBar: React.FC = () => {
       hideOnClick:true,
     });
     tippy(".logo", {
-      content: "<h6 class='text-muted'>Go Home 🏠</h6>",
+      content: "<h6 class='text-muted'> Home 🏠</h6>",
       animation: "perspective-subtle",
       placement: "bottom",
       theme: "light",

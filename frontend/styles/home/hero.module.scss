@@ -5,7 +5,7 @@ $clue:#757171;
 $white_blue:#CBFCF9;
 
 .hero {
-  background-color: $milk !important;
+  background-color: #000 !important;
   padding-bottom:110px;
   width:100%;
 }
@@ -15,16 +15,16 @@ $white_blue:#CBFCF9;
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #000;
+  color: #61dafb;
 }
 
-.header span {
-  background: linear-gradient(to top, $goldy 50%, transparent 50%);
-}
+// .header span {
+//   background: linear-gradient(to top, $primary 50%, transparent 50%);
+// }
 
 .subHeader {
   line-height:31px;
-  color: $clue;
+  color: #757171;
   margin: 10px 0 30px 0;
   font-size: 1.35rem;
   font-weight: 600;
@@ -37,9 +37,14 @@ $white_blue:#CBFCF9;
   padding: 8px 8px 8px 15px;
   transition: 0.3s;
   color: #000!important;
-  background: #ffff;
+  background: #00c8ff;
   border:2px solid #000;
   box-shadow: -8px 8px 0 #000;
+
+}
+
+.getStarted:hover {
+  background: #61DAFB;
 
 }
 
@@ -52,7 +57,7 @@ $white_blue:#CBFCF9;
   justify-content: center;
   color: #000!important;
   border:2px solid #000;
-  background-color: $white_blue;
+  background-color: #FFF;
   font-weight: 700;
   margin-right: 8px;
   padding: 8px 30px 10px 30px;
@@ -68,23 +73,30 @@ $white_blue:#CBFCF9;
 }
 
 
+
 .heroImg img {
   width: 100%;
   height:100%;
 }
 @media (min-width:1200px) {
   .heroImg img {
-    width:590px;
-    height:540px;
+   width:590px;
+   height:540px;
+   display: none;
+
   }
 }
 @media (min-width:1470px) {
   .hero{
     padding-bottom:130px;
+    display: none;
+
   }
   .heroImg img {
     width:730px;
     height:650px;
+   display: none;
+
   }
 }
 
@@ -104,9 +116,11 @@ $white_blue:#CBFCF9;
   .heroImg {
     text-align: center;
     justify-content: center!important;
+    display: none;
   }
   .heroImg img {
     width: 90%;
+    display: none;
   }
 }
 
@@ -121,6 +135,7 @@ $white_blue:#CBFCF9;
   }
   .heroImg img {
     width: 90%;
+    display: none;
   }
   // .hero {
   //   padding-bottom:80px;
@@ -130,6 +145,7 @@ $white_blue:#CBFCF9;
 @media (max-width: 575px) {
   .heroImg img {
     width: 80%;
+    display: none;
   }
 }
 
