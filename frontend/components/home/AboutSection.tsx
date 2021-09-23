@@ -37,14 +37,14 @@ const FeatureSection: React.FC = () => {
             className={`${styles.card} card m-3 d-flex flex-column justify-content-between align-items-center`}
           >
             <h6 className="align-self-start">API</h6>
-            <h4>learn more about superAPI backend service</h4>
+            <h4>explore my github</h4>
             <Image
               src="/images/api.png"
               width="200"
               height="200"
               alt="guilhermeabel backend api image "
             />
-            <p className="align-self-end mt-3">backend API</p>
+            <p className="align-self-end mt-3">backend</p>
           </a>
         </Link>
         {/* projects card */}
@@ -54,14 +54,14 @@ const FeatureSection: React.FC = () => {
             className={`${styles.card} card m-3 d-flex flex-column justify-content-between align-items-center`}
           >
             <h6 className="align-self-start">DEV</h6>
-            <h4>find out more about devSupporters work</h4>
+            <h4>explore my github</h4>
             <Image
               src="/images/web.png"
               width="200"
               height="200"
               alt="guilhermeabel website tools image"
             />
-            <p className="align-self-end mt-3">organization</p>
+            <p className="align-self-end mt-3">frontend</p>
           </a>
         </Link>
         {/* blogs card */}
@@ -72,14 +72,14 @@ const FeatureSection: React.FC = () => {
             className={`${styles.card} card m-3 d-flex flex-column justify-content-between align-items-center`}
           >
             <h6 className="align-self-start">NPM</h6>
-            <h4 className="">volder npm package for object validating and more</h4>
+            <h4 className="">explore my github</h4>
             <Image
               src="/images/npm.png"
               width="200"
               height="200"
               alt="guilhermeabel volder npm package image"
             />
-            <p className="align-self-end mt-3">npm package</p>
+            <p className="align-self-end mt-3">package</p>
           </a>
         </Link>
         {/*Count Component Section */}
