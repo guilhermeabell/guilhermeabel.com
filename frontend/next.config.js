@@ -38,9 +38,9 @@ module.exports = (phase) => {
 
       // counts sections info
       projects_count: "+100",
-      clients_count: "1",
+      clients_count: "20",
       docs_count: "1",
-      coding_years_count: "2.5",
+      coding_years_count: "3",
 
       // contact section info
       email: "not found",
@@ -48,15 +48,15 @@ module.exports = (phase) => {
       location: "Oman Muscat",
 
       // backend API section info
-      // BACKEND_API: isProd ? "https://alguero.herokuapp.com/" : "http://localhost:8080",
+      // BACKEND_API: isProd ? "https://guilhermeabel.com/" : "http://localhost:8080",
 
       //github states image URL
       // language_states:
-      //   "https://github-readme-stats.vercel.app/api/top-langs?username=alguerocode&show_icons=true&locale=en&layout=compact",
+      //   "https://github-readme-stats.vercel.app/api/top-langs?username=guilhermeabel99&show_icons=true&locale=en&layout=compact",
       // github_states:
-      //   "https://github-readme-stats.vercel.app/api?username=alguerocode&show_icons=true&locale=en",
+      //   "https://github-readme-stats.vercel.app/api?username=guilhermeabel99&show_icons=true&locale=en",
       // streak_states:
-      //   "https://github-readme-streak-stats.herokuapp.com/?user=alguerocode&",
+      //   "https://github-readme-streak-stats.herokuapp.com/?user=guilhermeabel99&",
     },
     redirects,
   };

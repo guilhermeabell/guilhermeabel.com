@@ -21,7 +21,7 @@ $gold: #ffd300;
   text-decoration: underline;
 }
 .getStarted {
-  background-color: $gold;
+  background-color: #00c8ff;
   padding: 0 5px;
   border-radius: 5px;
   height: 55px;
@@ -59,11 +59,11 @@ $gold: #ffd300;
   }
 }
 
-@media (max-width: 480px) {
-  .getStarted {
+// @media (max-width: 480px) {
+//   .getStarted {
    
-  }
-  .fiverr {
-    font-size: 16px;
-  }
-}
+//   }
+//   .fiverr {
+//     font-size: 16px;
+//   }
+// }

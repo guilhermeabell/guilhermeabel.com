@@ -30,7 +30,7 @@ $dark:#10162F;
 }
 
 .titleHeader {
-  background: linear-gradient(to top, $gold 45%, transparent 45%);
+  background: linear-gradient(to top, #61dafb 45%, transparent 45%);
   font-size: 38px;
   font-weight: 700;
   color: #000;
@@ -47,7 +47,7 @@ $dark:#10162F;
   border:2px solid #000;
   padding: 30px;
   width: 100%;
-  background-color: $gold;
+  background-color: #00c8ff;
 }
 
 .infoIcon {
@@ -89,7 +89,7 @@ $dark:#10162F;
   border: 2px solid #000;
   border-left:0;
   padding: 30px;
-  background-color:$milk ;
+  background-color:#FFF ;
 }
 
 .formGroup {
@@ -97,7 +97,7 @@ $dark:#10162F;
 }
 
 .submitButton[type="submit"] {
-  background: $yel;
+  background: #61dafb;
   font-size:18px;
   border: 2px solid #000;
   padding: 10px 24px;
