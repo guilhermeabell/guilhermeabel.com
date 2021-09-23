@@ -69,7 +69,7 @@ $yel: #fcec5a;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #FFFFFF;
   border: 2px solid #000;
   transition: 0.3s;
 }
@@ -80,6 +80,12 @@ $yel: #fcec5a;
 
 .socials-link {
   font-size: 18px;
+  color: #000;
+  
+}
+
+.socials-link:hover {
+  color:#61DAFB;
 }
 
 .navbar .dropdown ul a {
@@ -96,7 +102,7 @@ $yel: #fcec5a;
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: $d_orange;
+  color: #61DAFB;
 }
 
 .navbar .dropdown:hover > ul {
@@ -128,7 +134,11 @@ $yel: #fcec5a;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: $orange;
+  color: #fcec5a;
+}
+
+.nav-link a {
+  color: #000;
 }
 
 .navbar a,
@@ -139,7 +149,7 @@ $yel: #fcec5a;
   padding: 10px 0 10px 30px;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: #FFF;
   white-space: nowrap;
   transition: 0.3s;
 }
