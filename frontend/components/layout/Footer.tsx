@@ -150,11 +150,6 @@ const Footer: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/projects">
-                <a className="text-muted pe-5">Projects</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/docs">
                 <a className="text-muted pe-5">Documents</a>
               </Link>
