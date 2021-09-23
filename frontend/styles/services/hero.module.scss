@@ -14,7 +14,7 @@ $gold: #ffd300;
 }
 
 .intro a {
-  color: $gold;
+  color: #00c8ff;
 }
 
 .intro a:hover {
@@ -38,13 +38,6 @@ $gold: #ffd300;
   font-size: 20px;
   line-height: 40px;
 }
-.fiverr {
-  color: $gold;
-  font-size: 20px;
-}
-.fiverr:hover {
-  text-decoration: underline;
-}
 
 @media (max-width: 850px) {
   .intro h2 {
@@ -54,16 +47,4 @@ $gold: #ffd300;
   .getStarted p {
     font-size: 18px;
   }
-  .fiverr {
-    font-size: 16px;
-  }
 }
-
-// @media (max-width: 480px) {
-//   .getStarted {
-   
-//   }
-//   .fiverr {
-//     font-size: 16px;
-//   }
-// }
