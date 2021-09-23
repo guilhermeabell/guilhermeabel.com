@@ -12,17 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/alhashmicode/website.git"
+    "url": "git+ssh://git@github.com/guilhermeabel99/guilhermeabel-webportfolio.git"
   },
   "keywords": [
-    "alhashmicode"
+    "guilhermeabel"
   ],
-  "author": "salah alhashmi",
+  "author": "guilherme abel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alhashmicode/website/issues"
+    "url": "https://github.com/guilhermeabel99/guilhermeabel-webportfolio/issues"
   },
-  "homepage": "https://github.com/alhashmicode/website#readme",
+  "homepage": "https://github.com/guilhermeabel99/guilhermeabel-webportfolio#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
