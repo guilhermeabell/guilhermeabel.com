@@ -34,7 +34,7 @@ module.exports = (phase) => {
       // social media links
       url: "https://guilhermeabel.tk",
       github: "https://github.com/guilhermeabel99",
-      instagram: "https://instagram.com/oguilhermeabel",
+      instagram: "https://instagram.com/__guiza0",
 
       // counts sections info
       projects_count: "+100",

@@ -9,7 +9,7 @@ import Link from "next/link";
 const HeroSection: React.FC = () => {
   useEffect(() => {
     tippy(".home-image", {
-      content: "guilhermeabel development image 👨🏻‍💻",
+      content: "",
       theme: "light",
     });
   },[]);
