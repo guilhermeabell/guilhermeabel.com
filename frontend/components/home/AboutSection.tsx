@@ -12,7 +12,7 @@ const FeatureSection: React.FC = () => {
     // tooltip shows when hover the card;
     tippy(`.${styles.card}`, {
       content:
-        "<h6 class='text-muted'>👆👨🏻‍💻 Click here to see more about this</h6>",
+        "<h6 class='text-muted'> Click here to see more about this</h6>",
       animation: "perspective-subtle",
       placement: "top",
       theme: "light",
