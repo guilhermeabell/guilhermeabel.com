@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const DocsSection: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <section id="documents" className={styles.documents}>
         <div className="row">
           <div className="col-md-6 col-sm-10 d-flex flex-column justify-content-center align-items-center ps-5 pt-4" data-aos="fade-right">
@@ -32,7 +32,7 @@ const DocsSection: React.FC = () => {
           </div>
         </div>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 
