@@ -14,8 +14,8 @@ const DigitalService: NextPage = () => {
         <title>guilhermeabel | Digital Services</title>
         <meta title="guilhermeabel Digital Services"/>
         <meta name="keywords" content="digital services, products, freelancing, programming, guilhermeabel, guilhermeabel"/>
-        <meta name="description" content="figure out the service products you want. and contact me in contacts section or social media links above., get you dream projects done with my digital services, superior products."/>
         <script id="hi-widget" src="https://www3.directtalk.com.br/clientes/custom/DirectTalk/widget/dist/madeiranit.min.js"></script>
+        <meta name="description" content="figure out the service products you want. and contact me in contacts section or social media links above., get you dream projects done with my digital services, superior products."/>
       </Head>
       <HeroSection />
       <Dashboard />
