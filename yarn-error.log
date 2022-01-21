@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.17_1/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/macbook-guilhermeabel/.local/share/zinit/polaris/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "website",
+    "version": "1.0.0",
+    "description": "main personal website",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon index.js --trace-deprecation",
+      "add": "git add . | git commit -m add",
+      "deploy": "git push heroku main"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/guilhermeabel99/guilhermeabel-webportfolio.git"
+    },
+    "keywords": [
+      "guilhermeabel"
+    ],
+    "author": "guilherme abel",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/guilhermeabel99/guilhermeabel-webportfolio/issues"
+    },
+    "homepage": "https://github.com/guilhermeabel99/guilhermeabel-webportfolio#readme",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "mongoose": "^5.13.7",
+      "morgan": "^1.10.0",
+      "nodemailer": "^6.6.3",
+      "nodemon": "^2.0.12",
+      "validator": "^13.6.0",
+      "next": "11.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
