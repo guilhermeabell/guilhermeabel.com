@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 // components
 import Image from "next/image";
 
-const ContacsSection: React.FC = () => {
+const ContactsSection: React.FC = () => {
   const [sending, setSending] = useState(false);
   const { handleSubmit, handleChange, handleBlur, values, touched, errors } =
     useFormik({
@@ -229,4 +229,4 @@ const ContacsSection: React.FC = () => {
   );
 };
 
-export default ContacsSection;
+export default ContactsSection;

@@ -30,6 +30,11 @@ const HeroSection: React.FC = () => {
                 portfolio website. The most of my work in open source projects
                 and building webapps
               </h2>
+<script 
+id="dt-widget"
+ src="https://www3.directtalk.com.br/clientes/custom/HiPlatform/widget/widget.min.js">
+   </script> 
+
               <div className={`d-flex ${styles.buttons}`}>
                 <Link href="#features" scroll={true}>
                   <a
