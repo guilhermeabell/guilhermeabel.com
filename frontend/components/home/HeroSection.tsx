@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import tippy from "tippy.js";
 import styles from "../../styles/home/hero.module.scss";
-
+import Script from 'next/script'
 // components
 import Image from "next/image";
 import Link from "next/link";
@@ -30,10 +30,10 @@ const HeroSection: React.FC = () => {
                 portfolio website. The most of my work in open source projects
                 and building webapps
               </h2>
-<script 
+<Script 
 id="dt-widget"
  src="https://www3.directtalk.com.br/clientes/custom/HiPlatform/widget/widget.min.js">
-   </script> 
+   </Script> 
 
               <div className={`d-flex ${styles.buttons}`}>
                 <Link href="#features" scroll={true}>
